@@ -1,0 +1,22 @@
+{
+  "name": "megabot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --watch src --exec \"ts-node src/index.ts\"",
+    "start": "node ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3"
+  }
+}
